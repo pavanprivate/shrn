@@ -1,0 +1,39 @@
+  body{  
+    background-image:url('images/blur1.jpg');
+    background-repeat: no-repeat;
+    background-size:cover;
+    font-family: 'Courier New', Courier, monospace;
+     text-align: center;
+     margin: 50px;
+ }
+
+ h1{
+    font-size: 50px;
+    transition: color 0.5s ease; 
+    text-shadow: 0 0 5px red,0 0 25px red;
+ }
+ h3{
+    color:blueviolet;
+    text-shadow: 0 0 5px red,0 0 25px red;
+    
+ }
+ #heart {
+    display: inline-block;
+     font-size: 300px;
+     color: red;
+     cursor: pointer;
+    text-shadow: 0 0 25px rgb(218, 74, 74);
+ }
+ #heart:hover{
+    text-shadow: 0 0 5px red,0 0 25px red,0 0 100px red,0 0 200px red;
+ }
+ #greeting-card {
+    font-size: 50px;
+     display: none;
+     margin-top: 0 px;
+     text-shadow: 0 0 5px red,0 0 25px red;
+ } 
+ #greeting-card:hover{
+    
+    text-shadow: 0 0 5px red,0 0 25px red,0 0 100px red,0 0 200px red;
+ }
